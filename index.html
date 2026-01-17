@@ -25,14 +25,12 @@
             gap: 5px;
             z-index: 10;
         }
-
         .flex-navbar > .item{
             color: white;
             display: flex;
             font-size:large;
             margin-top: 8px;
         }
-
         .item.logo-img{
             flex: 1.2;
             font-size:xx-large;
@@ -40,7 +38,6 @@
             padding-top: 0;
             margin-left: 6px;
         }
-
         .item.list{
             gap: 5px;
             flex: 1.8;
@@ -50,17 +47,14 @@
             text-align: center;
             
         }
-
         .nav-link {
             color: inherit;
             text-decoration: none;
             cursor: pointer;
         }
-
         .nav-link:hover {
             color: #ffde59;
         }
-
         .item.about{
             flex: 1;
             min-width: 80px;
@@ -78,16 +72,14 @@
         .item.cont{
             flex: 1;
             justify-content: center;
-            
-            
+            margin-top: 10px;
             min-width: 25%;
         }
-
         .btn-contact{
-            font-size:large;
+            font-size:medium;
             color:#000000;
             font-weight: 900;
-
+            
         }
 
 
@@ -110,14 +102,15 @@
         .bg-h-black{
             background: black;
             flex: 3;
-            height: 470px;
+            height: 460px;
         }
         .bg-h-yellow{
             background: #ffde59;
             flex: 1;
-            height: 470px;
+            height: 460px;
         }
         .hero-content{
+            
             min-height: 700px;
             position: relative;
             
@@ -125,18 +118,21 @@
             
             
         }
+
+
         .container{
             display: flex;
+            
         }
         .text-hero{
             position: relative;
             top: 20vh;
-            width: 65%;
-            height: 50vh;
-            
+            flex: 3;
             text-align: right;
+            
         }
         .text-hero > h1{
+            font-size:xx-large;
             color: #ffde59;
         }
         .text-hero > p{
@@ -147,14 +143,10 @@
         }
         .img-hero{
             position: relative;
+            text-align: left;
             top: 13vh;
-            
+            flex: 1;
         }
-
-
-
-
-
     </style>
 
 </head>
@@ -187,59 +179,22 @@
 
         <div class="hero-content">
             <div class="container">
-                <div class="text-hero">
+                <div class="item text-hero">
                     <h1>Diego Alejandro <br> Arbelaez V.</h1>
                     <p>Desarrollador <span>FullStack</span></p>
+                    <button>Descargar CV</button>
                     
                 </div>
-                <div class="img-hero"><img src="./assest/imagenes/Diego.png" width="170px"  alt="foto cuerpo entero, con traje elegante de Diego Alejandro Arbeláez Vasquez"></div>
+                <div class="item img-hero"><img src="./assest/imagenes/Diego.png" width="170px"  alt="foto cuerpo entero, con traje elegante de Diego Alejandro Arbeláez Vasquez"></div>
             </div>
 
         </div>
     </section>
 
     <section>
-        <div class="container px-4 py-5" id="hanging-icons"> 
-            <h2 class="pb-2 border-bottom">Hanging icons</h2> 
-            <div class="row g-4 py-5 row-cols-1 row-cols-lg-3"> 
-                <div class="col d-flex align-items-start"> 
-                    <div class="icon-square text-body-emphasis bg-body-secondary d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3"> 
-                        <svg class="bi" width="1em" height="1em" aria-hidden="true">
-                            <use xlink:href="#toggles2"></use>
-                        </svg> 
-                    </div> 
-                    <div> 
-                        <h3 class="fs-2 text-body-emphasis">Featured title</h3> <p>Paragraph of text beneath the heading to explain the heading. We'll add onto it with another sentence and probably just keep going until we run out of words.</p> <a href="#" class="btn btn-primary">Primary button</a> 
-                    </div> 
-                </div> 
-                <div class="col d-flex align-items-start"> 
-                    <div class="icon-square text-body-emphasis bg-body-secondary d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3"> 
-                        <svg class="bi" width="1em" height="1em" aria-hidden="true">
-                            <use xlink:href="#cpu-fill"></use>
-                        </svg> 
-                    </div> 
-                    <div> 
-                        <h3 class="fs-2 text-body-emphasis">Featured title</h3> <p>Paragraph of text beneath the heading to explain the heading. We'll add onto it with another sentence and probably just keep going until we run out of words.</p> <a href="#" class="btn btn-primary">Primary button</a> 
-                    </div> 
-                </div> 
-                <div class="col d-flex align-items-start"> 
-                    <div class="icon-square text-body-emphasis bg-body-secondary d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3"> 
-                        <svg class="bi" width="1em" height="1em" aria-hidden="true">
-                            <use xlink:href="#tools"></use>
-                        </svg> 
-                    </div> 
-                    <div> 
-                        <h3 class="fs-2 text-body-emphasis">Featured title</h3> <p>Paragraph of text beneath the heading to explain the heading. We'll add onto it with another sentence and probably just keep going until we run out of words.</p> <a href="#" class="btn btn-primary">Primary button</a> 
-                    </div> 
-                </div> 
-            </div> 
-        </div>
+        
     </section>
-    <div class="flexi">
-        <div class="red" ></div>
-        <div class="blue" ></div>
-        <div class="green" ></div>
-    </div>
+    
 
 </body>
 </html>
